@@ -4,4 +4,4 @@ FROM gcc:latest
 	WORKDIR /root/homework/
 	COPY Homework9.1.cpp .
 	RUN gcc -o Homework9.1 Homework9.1.cpp -lstdc++
-	CMD ["./Homework9.1"]
+	#CMD ["./Homework9.1"]
