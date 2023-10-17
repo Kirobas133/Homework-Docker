@@ -4,4 +4,4 @@ FROM ubuntu:latest
 	WORKDIR /root/homework/
 	COPY hellodockerworld.cpp .
 	RUN g++ hellodockerworld.cpp -o hellodockerworld
-	CMD ["./hellodockerworld"]
+	#CMD ["./hellodockerworld"]
