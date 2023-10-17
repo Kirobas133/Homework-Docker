@@ -4,4 +4,4 @@ FROM ubuntu:latest
 	WORKDIR /root/homework/
 	COPY Homework9.1.cpp .
 	RUN clang Homework9.1.cpp -o homework91clang -lstdc++
-	CMD ["./homework91clang"]
+	#CMD ["./homework91clang"]
